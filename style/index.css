@@ -240,16 +240,20 @@ body {
 }
 
 .box {
-    width: 400px;
+    width: 100%;
+    max-width: 400px;
     padding: 50px 20px;
-    margin-left: 400px;
+    left: 550px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     position: relative;
+    z-index: 2;
+    top: 100px;
     background-color: white;
     border-radius: 10px;
-    margin-bottom: 0px;
+    /* margin-bottom: 0px; */
     box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
     -webkit-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
     -moz-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
@@ -258,6 +262,8 @@ body {
 .footer {
     background-color: hsl(192, 100%, 9%);
     font-size: small;
+    z-index: 1;
+    position: relative;
 }
 
 .blue {
@@ -593,9 +599,18 @@ a:hover {
     }
 
     .box {
-        width: 350px;
-        margin-left: 12px;
-        padding-right: 10px;
+        top: 100px;
+        left: 18px;
+        width: 90%;
+        max-width: 400px;
+        height: 200px;
+        /* width: 350px; */
+        /* margin-left: 12px; */
+        /* padding-right: 10px; */
+    }
+
+    .Ready {
+        font-size: medium;
     }
 
     .blue {
@@ -629,6 +644,7 @@ a:hover {
 
     .About {
         margin-bottom: 0px;
+        width: 100%;
     }
 
     .Career {
