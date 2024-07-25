@@ -1,0 +1,688 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+
+.header {
+
+    background-color: hsl(193, 100%, 96%);
+    background-image: url(../image/bg-hero-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: static;
+
+}
+
+.logo {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.Try {
+    cursor: pointer;
+    width: 150px;
+    margin-top: 30px;
+    margin-right: 50px;
+    background-color: white;
+    outline: none;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.Try:hover {
+    color: rgb(175, 175, 175);
+
+}
+
+.Huddle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Build {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.h {
+    margin-top: 90px;
+    margin-left: 50px;
+    line-height: 50px;
+}
+
+.connections {
+    margin-left: 50px;
+    line-height: 25px;
+    font-weight: lighter;
+}
+
+.Get {
+    cursor: pointer;
+    width: 200px;
+    margin-left: 50px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    outline: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.Get:hover {
+    background-color: hsl(322, 85%, 79%);
+}
+
+.form {
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+
+
+.main {
+
+    box-sizing: border-box;
+    position: relative;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 100px;
+
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+}
+
+.p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+.Grow {
+    line-height: 1px;
+}
+
+.Generate {
+    font-weight: lighter;
+    color: hsl(208, 11%, 55%);
+}
+
+.st {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+.second {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+}
+
+.pp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 40px;
+}
+
+.Flowing {
+    line-height: 1px;
+}
+
+.You {
+    font-weight: lighter;
+    color: hsl(208, 11%, 55%);
+}
+
+.nd {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 90px;
+}
+
+.third {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+}
+
+.ppp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 90px;
+}
+
+.Your {
+    line-height: 1px;
+}
+
+.It {
+    font-weight: lighter;
+    color: hsl(208, 11%, 55%);
+}
+
+.rd {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 40px;
+}
+
+.Gett {
+    cursor: pointer;
+    width: 200px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    outline: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: .5s;
+}
+
+.Gett:hover {
+    background-color: hsl(322, 85%, 79%);
+}
+
+.box {
+    width: 400px;
+    padding: 50px 20px;
+    margin-left: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+    -webkit-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+    -moz-box-shadow: 0px 0px 5px 3px rgba(128, 141, 153, 0.21);
+}
+
+.footer {
+    background-color: hsl(192, 100%, 9%);
+    font-size: small;
+}
+
+.blue {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icons {
+    padding-top: 150px;
+    margin-left: 100px;
+}
+
+
+
+.Lorem {
+    margin-left: 30px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.Loremm {
+    margin-left: 46px;
+    color: whitesmoke;
+    font-weight: lighter;
+
+}
+
+.temp {
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.omnis {
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.number {
+    margin-left: 20px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.example {
+    margin-left: 20px;
+    color: whitesmoke;
+    font-weight: lighter;
+}
+
+.anchor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 190px;
+    margin-right: 100px;
+    font-weight: lighter;
+}
+
+.About {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.Career {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.socials {
+
+    padding-top: 220px;
+    margin-right: 150px;
+}
+
+.facebook {
+    margin-right: 2px;
+    cursor: pointer;
+    padding: 3px;
+    fill: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.facebook:hover {
+    fill: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+.twitter {
+    margin-right: 2px;
+    cursor: pointer;
+    padding: 3px;
+    fill: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.twitter:hover {
+    fill: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+.instagram {
+    cursor: pointer;
+    padding: 3px;
+    fill: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.instagram:hover {
+    fill: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+}
+
+.com {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    margin-right: 70px;
+    color: white;
+    font-weight: lighter;
+    font-size: smaller;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+
+    .header {
+        background-image: url(../image/bg-hero-mobile.svg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: static;
+    }
+
+    .logo {
+        width: 100px;
+        height: 15px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .Try {
+        margin-top: 10px;
+        margin-right: 20px;
+        width: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .Build {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .h {
+        font-size: x-large;
+        text-align: center;
+        margin-top: 70px;
+        margin-left: 0px;
+        line-height: 40px;
+    }
+
+    .connections {
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .Get {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 80px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .form {
+        margin-left: 50px;
+        padding-top: 30px;
+
+    }
+
+    .mockups {
+        width: 300px;
+        height: 200px;
+    }
+
+    .main {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .first {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+
+    }
+
+    .p {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Grow {
+        text-align: center;
+    }
+
+    .Generate {
+        font-size: small;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .st {
+        margin-top: 50px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stt {
+        width: 200px;
+        height: 150px;
+    }
+
+    .second {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .pp {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Flowing {
+        text-align: center;
+    }
+
+    .You {
+        font-size: small;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .nd {
+        margin-top: 50px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ndd {
+        width: 200px;
+        height: 150px;
+    }
+
+    .third {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .ppp {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .Your {
+        text-align: center;
+    }
+
+    .It {
+        font-size: small;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .rd {
+        margin-top: 50px;
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rdd {
+        width: 200px;
+        height: 150px;
+    }
+
+    .box {
+        width: 350px;
+        margin-left: 12px;
+        padding-right: 10px;
+    }
+
+    .blue {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .icons {
+        margin-left: 30px;
+    }
+
+    .temp {
+        margin-left: 46px;
+        color: whitesmoke;
+        font-weight: lighter;
+    }
+
+    .omnis {
+        margin-left: 46px;
+        color: whitesmoke;
+        font-weight: lighter;
+    }
+
+    .anchor {
+        display: flex;
+        flex-direction: column;
+        margin-right: 200px;
+        padding-top: 20px;
+    }
+
+    .About {
+        margin-bottom: 0px;
+    }
+
+    .Career {
+        margin-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    li {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .socials {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-right: 0px;
+        padding-top: 0px;
+        margin-bottom: 10px;
+    }
+
+    .facebook {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        padding: 5px;
+        border-radius: 100%;
+    }
+
+    .twitter {
+        width: 25px;
+        height: 25px;
+        margin-right: 10px;
+        padding: 5px;
+        border-radius: 100%;
+    }
+
+    .instagram {
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+        border-radius: 100%;
+    }
+
+    .com {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 50px;
+        margin-right: 0px;
+    }
+}
